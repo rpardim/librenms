@@ -78,7 +78,7 @@ modules:
                         - { value: 0, descr: Up , graph: 2, generic: 0 }
                         - { value: 1, descr: Attention, graph: 1, generic: 3 }
                         - { value: 2, descr: Down, graph: 0, generic: 1 }
-                -                
+                -
                     oid: raidVolumeState
                     num_oid: '.1.3.6.1.4.1.2620.1.6.7.7.1.1.6.{{ $index }}'
                     index: 'raidVolumeState.{{ $index }}'
