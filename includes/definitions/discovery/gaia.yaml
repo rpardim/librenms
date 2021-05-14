@@ -4,6 +4,13 @@ modules:
         hardware: CHECKPOINT-MIB::svnApplianceProductName.0
         serial: CHECKPOINT-MIB::svnApplianceSerialNumber.0
         version: CHECKPOINT-MIB::svnVersion.0
+    mempools:
+            data:
+                -
+                    total: CHECKPOINT-MIB::memTotalReal64
+                    used: CHECKPOINT-MIB::memActiveReal64
+                    free: CHECKPOINT-MIB::memFreeReal64
+                    descr: 'Checkpoint Memory'
     sensors:
         pre-cache:
             data:
