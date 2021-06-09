@@ -11,6 +11,7 @@ modules:
                     used: CHECKPOINT-MIB::memActiveReal64
                     free: CHECKPOINT-MIB::memFreeReal64
                     descr: 'Checkpoint Memory'
+                    precision: 1024
     sensors:
         pre-cache:
             data:
